@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+ * {
+    font-family: 'Syne', sans-serif;
+}
+    /* header */
+
+
+.custom-logo{
+width: 201px;
+height: 19px;
+top: 31px;
+left: 37px;
+}
+.ast-container{
+    max-width: 1440px; 
+}
+
+a, a:focus, a:hover, a:visited {
+color: inherit !important;
+text-decoration: none;
+}
+
+
+#menu-item-22{
+background-color: #DC9F96;
+color: white !important;
+padding-right: 30px;
+padding-left: 30px;
+font-size: 16px;
+font-weight: 700;
+text-align: center;
+}
+
+#menu-item-22:hover{
+background-color:#C02E44;
+    
+}
+#menu-item-23{
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+}
+
+#menu-item-23:hover{
+font-size: 13px;
+font-weight: 700;
+text-align: left;
+}
+
+.main-navigation ul{
+    gap: 60px;
+}
+#ast-desktop-header{
+    width: 1440px;
+    height: 80px;
+    
+}
+.elementor-10 .elementor-element.elementor-element-8c836a8:not(.elementor-motion-effects-element-type-background), .elementor-10 .elementor-element.elementor-element-8c836a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+
+}
+    /* footer */
+
+#menu-item-47{
+width: 119px;
+height: 19px;
+top: 20px;
+left: 661px;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+}
