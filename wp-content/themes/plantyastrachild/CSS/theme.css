@@ -84,15 +84,13 @@ text-align: center;
    margin: 10px 100px 20px !important;
 }
 
-.frm_form_fields .frm_fields_container{
-    display: grid;
-    grid-column-gap: 12% !important;
-grid-template-columns: repeat(12,1fr);
-margin: 10px 100px 20px !important;
-}
+
 .ast-container, .ast-container-fluid{
     margin-left: 0px !important;
     margin-right: 0px !important;
    
     padding-right: 0px !important;
+}
+.admin-button{
+    padding-right: 65px !important;
 }
