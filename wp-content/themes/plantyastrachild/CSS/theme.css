@@ -18,7 +18,7 @@ margin-bottom: 18px;
 margin-left: 5px;
 }
 .ast-container{
-    max-width: 1440px; 
+  
 }
 .site-header{
     z-index:auto ;
@@ -41,7 +41,7 @@ text-align: left;
     gap: 60px;
 }
 #ast-desktop-header{
-    width: 1440px;
+    
     height: 80px;
     
 }
@@ -89,4 +89,10 @@ text-align: center;
     grid-column-gap: 12% !important;
 grid-template-columns: repeat(12,1fr);
 margin: 10px 100px 20px !important;
+}
+.ast-container, .ast-container-fluid{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+   
+    padding-right: 0px !important;
 }
