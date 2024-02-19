@@ -25,7 +25,6 @@ margin-left: 5px;
 }
 
 
-
 #ast-hf-menu-1{
 font-size: 16px;
 font-weight: 400;
@@ -53,6 +52,10 @@ text-align: left;
     border-bottom-right-radius: 50% 10%;
 
 }
+.backgroundstyl{
+    border-bottom-left-radius: 60% 20%;
+    border-bottom-right-radius: 60% 20%;
+}
     /* footer */
 
 #menu-item-47{
@@ -71,4 +74,19 @@ text-align: center;
     border-bottom-left-radius: 40% 10%;
     border-bottom-right-radius: 40% 10%;
 
+}
+
+.frm_fields_container{
+  position: relative;
+    z-index: 5;
+}
+.frm_button_submit {
+   margin: 10px 100px 20px !important;
+}
+
+.frm_form_fields .frm_fields_container{
+    display: grid;
+    grid-column-gap: 12% !important;
+grid-template-columns: repeat(12,1fr);
+margin: 10px 100px 20px !important;
 }
