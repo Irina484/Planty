@@ -7,56 +7,177 @@
 
 
 .custom-logo{
-width: 201px;
-height: 19px;
-top: 31px;
-left: 37px;
+    width: 201px;
+    height: 19px;
+    top: 31px;
+    left: 37px;
 }
+
 .ast-builder-layout-element .ast-site-identity{
-margin-top: 18px;
-margin-bottom: 18px;
-margin-left: 5px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 5px;
 }
-.ast-container{
-  
-}
+
 .site-header{
     z-index:auto ;
 }
 
-
 #ast-hf-menu-1{
-font-size: 16px;
-font-weight: 400;
-text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
 }
 
 #ast-hf-menu-1:hover{
-font-size: 13px !important;
-font-weight: 700;
-text-align: left;
+    font-size: 13px !important;
+    font-weight: 700;
+    text-align: left;
 }
 
 .main-navigation ul{
-    gap: 60px;
+    column-gap: 60px;
 }
+
 #ast-desktop-header{
-    
     height: 80px;
     
 }
+
+.ast-container, .ast-container-fluid{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+}
+
+.admin-button{
+    padding-right: 65px !important;
+}
+
 /* body */
 
-.elementor-10 .elementor-element.elementor-element-8c836a8:not(.elementor-motion-effects-element-type-background), .elementor-10 .elementor-element.elementor-element-8c836a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    border-bottom-left-radius: 50% 10%;
+.backgroundimage {
+    border-bottom-left-radius: 50% 10% ;
     border-bottom-right-radius: 50% 10%;
-
 }
+
 .backgroundstyl{
     border-bottom-left-radius: 60% 20%;
     border-bottom-right-radius: 60% 20%;
 }
-    /* footer */
+
+.boutonbackground{
+    border-bottom-left-radius: 40% 10%;
+    border-bottom-right-radius: 40% 10%;
+}
+
+.formcontact{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    z-index: 5;
+    width: 70%;
+}
+
+.formcontact input{
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.formcontact textarea{
+    margin-top: 10px ;
+    margin-bottom: -20px;
+}
+
+.contact {
+    font-family: Syne !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black!important;
+}
+    
+.btn{
+    background-color: #DC9F96 !important;
+    width: 198px !important;
+    height: 55px !important;
+    border-radius: 5px !important;
+    margin-left: 90px;
+    margin-top: -20px;
+ }
+
+.btn:hover {
+    background-color: #C02E44 !important;
+ }
+
+.quantite {
+    width: 45px !important;
+    height: 60px !important;
+ }
+ 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+   margin: 0;
+
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+
+}
+ 
+.wpcf7 label {
+    width: 100%;
+    font-size: 20px !important ;
+    color: white ;
+    font-weight: 400;
+}
+
+.formcommander input{
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px !important;
+}
+
+.formcommander{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 150px;
+    place-content: center;
+}
+
+.formcommander p:nth-child(2){
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.formcommander p:nth-child(3){
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.commander {
+    background-color: #DC9F96 !important;
+    width: 198px !important;
+    height: 55px !important;
+    margin-left: 320px;
+}
+ 
+.commander:hover {
+    background-color: #C02E44 !important;
+    
+ }
+
+ 
+ 
+
+   /* footer */
 
 #menu-item-47{
 width: 119px;
@@ -68,29 +189,33 @@ font-weight: 400;
 line-height: 19px;
 letter-spacing: 0em;
 text-align: center;
-}
-
-.boutonbackground{
-    border-bottom-left-radius: 40% 10%;
-    border-bottom-right-radius: 40% 10%;
 
 }
 
-.frm_fields_container{
-  position: relative;
-    z-index: 5;
-}
-.frm_button_submit {
-   margin: 10px 100px 20px !important;
-}
+@media screen and (max-width:600px) {
+    .btn {
+       margin-left:65px !important ;
+   }
+ }
 
+@media screen and (max-width:800px) {
+    .formcommander {
+        grid-template-columns: 250px 250px;
+        place-content: center;
+    }
+    .formcommander p:nth-child(7){
+        margin-left: -95px !important;
+    }
+ }
 
-.ast-container, .ast-container-fluid{
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-   
-    padding-right: 0px !important;
-}
-.admin-button{
-    padding-right: 65px !important;
+ @media screen and (max-width:600px) {
+    .formcommander {
+        display: grid;
+        grid-template-columns:250px !important;
+        grid-template-rows: 1fr;
+    }
+    .formcommander p:nth-child(7){
+        margin-left: -295px !important;
+    }
+    
 }
